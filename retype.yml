@@ -1,6 +1,6 @@
 input: ./
 output: .retype
-url: retype.com
+url: joelmtaylor.github.io/Documentation
 
 branding:
   logo: /static/ccm-logo.svg
