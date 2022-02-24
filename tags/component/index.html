@@ -6,6 +6,7 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="turbo-root" content="/Documentation">
     <meta name="turbo-cache-control" content="no-cache">
 
     <!-- Primary Meta Tags -->
@@ -14,21 +15,22 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://retype.com/tags/component/">
+    <meta property="og:url" content="https://joelmtaylor.github.io/Documentation/tags/component/">
     <meta property="og:title" content="component - CCM how-to's and documentation">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://retype.com/tags/component/">
+    <meta property="twitter:url" content="https://joelmtaylor.github.io/Documentation/tags/component/">
     <meta property="twitter:title" content="component - CCM how-to's and documentation">
     
-    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("/Documentation/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=1.11.2.699058041900" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/Documentation/favicon.ico" rel="icon" />
+    <link href="/Documentation/resources/css/retype.css?v=1.11.2.699058392306" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.699058041900" defer data-turbo-track="reload"></script>
-    <script type="text/javascript" src="/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.699058041900" defer></script>
+    <script type="text/javascript" src="/Documentation/resources/js/config.js?v=1.11.2.699058392306" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/Documentation/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
+    <script id="lunr-js" type="text/javascript" src="/Documentation/resources/js/lunr.js?v=1.11.2.699058392306" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -43,10 +45,10 @@
         <!-- Logo -->
         <div class="flex items-center justify-between h-full py-2 md:w-75">
             <div class="flex items-center px-2 md:px-6">
-                <a id="docs-site-logo" href="/" class="flex items-center leading-snug text-2xl">
+                <a id="docs-site-logo" href="/Documentation/" class="flex items-center leading-snug text-2xl">
                     <span class="flex-grow-0 flex-shrink-0 overflow-hidden">
-                        <img class="max-h-10 dark:hidden md:inline-block" src="/static/ccm-logo.svg">
-                        <img class="max-h-10 hidden dark:inline-block" src="/static/retype-logo-dark.svg">
+                        <img class="max-h-10 dark:hidden md:inline-block" src="/Documentation/static/ccm-logo.svg">
+                        <img class="max-h-10 hidden dark:inline-block" src="/Documentation/static/retype-logo-dark.svg">
                     </span>
                 </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">v0.1</span>
             </div>
@@ -59,7 +61,7 @@
             <nav class="hidden md:flex">
     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
         <li class="md:mr-6">
-            <a class="inline-flex items-center py-2 md:mb-0 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="/">
+            <a class="inline-flex items-center py-2 md:mb-0 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="/Documentation/">
                 <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
                     <g fill="currentColor">
                         <path fill-rule="evenodd" d="M11.03 2.59a1.5 1.5 0 011.94 0l7.5 6.363a1.5 1.5 0 01.53 1.144V19.5a1.5 1.5 0 01-1.5 1.5h-5.75a.75.75 0 01-.75-.75V14h-2v6.25a.75.75 0 01-.75.75H4.5A1.5 1.5 0 013 19.5v-9.403c0-.44.194-.859.53-1.144l7.5-6.363zM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 01.75-.75h3.5a.75.75 0 01.75.75v6.25h5v-9.403L12 3.734z"/>
@@ -90,7 +92,7 @@
         </li>
         <li class="md:mr-6">
             <a class="inline-flex items-center py-2 md:mb-0 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/JoelMTaylor/Documentation/SharePoint" target="_blank">
-                <img class="mb-px mr-1" width="18" src="/static/sharepoint.svg" />
+                <img class="mb-px mr-1" width="18" src="/Documentation/static/sharepoint.svg" />
                 <span>SharePoint</span>
             </a>
         </li>
@@ -240,80 +242,80 @@
         <span>Tag: component</span>
     </h1>
 </doc-anchor-target>
-<p>See all <a href="/tags/">tags</a>.</p>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/alert/">
+<p>See all <a href="/Documentation/tags/">tags</a>.</p>
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/alert/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Alert</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">Alert components help to highlight important messages for the reader.</p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/badge/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/badge/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Badge</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">Similar to a Button, the Badge component uses the same syntax as a hyperlink, but is prefixed with a </p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/button/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/button/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Button</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">Similar to a Badge, the Button component uses the same syntax as a hyperlink, but is prefixed with a </p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/code-block/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/code-block/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Code block</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">Blocks of code or any preformatted text can be displayed by wrapping with triple backticks characters before and after.</p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/code-snippet/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/code-snippet/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Code snippet</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">A code snippet allow you to include the content of another text file or a portion of that file into a code block on another page.</p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/column/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/column/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Column</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">The column component is used to create multiple equal width columns with a title for each column.</p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/embed/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/embed/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Embed</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">The <code v-pre>embed</code> component helps with content embedding.</p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/emoji/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/emoji/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Emoji</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">Retype uses Mojee.io to find emoji <code v-pre>:shortcodes:</code> within your document and replace with actual emoji characters. 👍</p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/file-download/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/file-download/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">File download</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">A static file download component can be configured by using the <code v-pre>!file</code> specifier in a link.</p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/icon/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/icon/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Icon</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">Similar to the Emoji <code v-pre>:shortcode:</code> syntax, you can add icons using <code v-pre>:icon-shortcode:</code>, where the <code v-pre>shortcode</code></p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/image/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/image/">
     <div class="relative flex-shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="/static/sample.jpg" />
+        <img class="absolute object-cover w-full h-full" src="/Documentation/static/sample.jpg" />
     </div>
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
@@ -321,23 +323,23 @@
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">The image component embeds an image in your document. You can point to image files stored within the project, or an external URL.</p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/list/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/list/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">List</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">Retype includes broad support for creating lists of items, including unordered and ordered lists.</p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/math-formulas/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/math-formulas/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Math formulas</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">Retype supports rendering math formulas written according to the LaTeX grammar. Internally, Retype is powered by </p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/mermaid/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/mermaid/">
     <div class="relative flex-shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="/static/mermaid-header.png" />
+        <img class="absolute object-cover w-full h-full" src="/Documentation/static/mermaid-header.png" />
     </div>
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
@@ -345,21 +347,21 @@
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">Mermaid is a diagramming and charting tool that can be defined inside Markdown code blocks.</p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/panel/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/panel/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Panel</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">A Panel is created by surrounding a block of content with <code v-pre>===</code> and including a <code v-pre>title</code> for the Panel.</p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/reference-link/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/reference-link/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Reference link</div>
         <div class="line-clamp-3"><p class="hidden mt-2 md:block">A special type of reference link can be configured by using the <code v-pre>!ref</code> specifier in a link.</p></div>
     </div>
 </a>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/components/tab/">
+<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/Documentation/components/tab/">
     <div class="p-6">
         <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Components</div>
         <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">Tab</div>
@@ -384,7 +386,7 @@
     <div>
         <ul class="flex flex-wrap items-center text-sm">
     <li>
-        <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="/about/">About</a>
+        <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="/Documentation/about/">About</a>
     </li>
 </ul>
 
