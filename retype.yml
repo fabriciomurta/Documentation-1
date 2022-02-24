@@ -30,7 +30,7 @@ links:
 
   - text: SharePoint
     link: https://github.com/JoelMTaylor/Documentation/SharePoint
-    icon: mark-github
+    icon: /static/SharePoint.svg
     target: blank
 
   - text: Teams
