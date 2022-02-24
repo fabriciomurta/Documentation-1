@@ -9,21 +9,21 @@
     <meta name="turbo-cache-control" content="no-cache">
 
     <!-- Primary Meta Tags -->
-    <title>Tab - CCM how-to&#39;s and documentation</title>
-    <meta name="title" content="Tab - CCM how-to's and documentation">
-    <meta name="description" content="With Retype, a Tab component is super simple to configure by surrounding a block of text with +++ and including a title for the tab." />
+    <title>Learner.Link - CCM how-to&#39;s and documentation</title>
+    <meta name="title" content="Learner.Link - CCM how-to's and documentation">
+    <meta name="description" content="Here is where you find information about Learner.Link. Below are some links." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://retype.com/components/tab/">
-    <meta property="og:title" content="Tab - CCM how-to's and documentation">
-    <meta property="og:description" content="With Retype, a Tab component is super simple to configure by surrounding a block of text with +++ and including a title for the tab.">
+    <meta property="og:url" content="https://retype.com/learnerlink/learnerlink_main/">
+    <meta property="og:title" content="Learner.Link - CCM how-to's and documentation">
+    <meta property="og:description" content="Here is where you find information about Learner.Link. Below are some links.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://retype.com/components/tab/">
-    <meta property="twitter:title" content="Tab - CCM how-to's and documentation">
-    <meta property="twitter:description" content="With Retype, a Tab component is super simple to configure by surrounding a block of text with +++ and including a title for the tab.">
+    <meta property="twitter:url" content="https://retype.com/learnerlink/learnerlink_main/">
+    <meta property="twitter:title" content="Learner.Link - CCM how-to's and documentation">
+    <meta property="twitter:description" content="Here is where you find information about Learner.Link. Below are some links.">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -32,7 +32,6 @@
     <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.699053013561" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
     <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.699053013561" defer></script>
-    <script id="prism-js" type="text/javascript" src="/resources/js/prism.js?v=1.11.2.699053013561" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -242,117 +241,15 @@
                 <div id="docs-sidebar-right-toggle"></div>
                
                 <!-- Page content  -->
-<doc-anchor-target id="tab" class="break-words">
+<doc-anchor-target id="learnerlink" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#tab">#</doc-anchor-trigger>
-        <span>Tab</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#learnerlink">#</doc-anchor-trigger>
+        <span>Learner.Link</span>
     </h1>
 </doc-anchor-target>
-<p>With Retype, a Tab component is super simple to configure by surrounding a block of text with <code v-pre>+++</code> and including a title for the tab.</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-markdown"><code v-pre class="language-markdown">+++ Tab 1
-This is a Tab
-+++</code></pre>
-</doc-codeblock></div>
-<doc-tabs>
-<doc-tab id="tab-1">
-<template #title>Tab 1</template>
-<p>This is a Tab</p>
-</doc-tab>
-</doc-tabs>
-<p>The tab <code v-pre>title</code> must be separated from the opening <code v-pre>+++</code> by one space. The pattern <code v-pre>+++ Tab </code> will work as expected, and <code v-pre>+++Tab 1</code> will not.</p>
-<hr />
-<doc-anchor-target id="multiple-tabs">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#multiple-tabs">#</doc-anchor-trigger>
-        <span>Multiple tabs</span>
-    </h2>
-</doc-anchor-target>
-<p>Multiple Tabs can be configured by stacking multiple <code v-pre>+++</code> blocks and adding a title for each tab.</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-markdown"><code v-pre class="language-markdown">+++ Tab 1
-This is a Tab
-+++ Tab 2
-This is another Tab
-+++ Tab 3
-Wow! Yet another tab :+1:
-+++</code></pre>
-</doc-codeblock></div>
-<doc-tabs>
-<doc-tab id="tab-1">
-<template #title>Tab 1</template>
-<p>This is a Tab</p>
-</doc-tab>
-<doc-tab id="tab-2">
-<template #title>Tab 2</template>
-<p>This is another Tab</p>
-</doc-tab>
-<doc-tab id="tab-3">
-<template #title>Tab 3</template>
-<p>Wow! Yet another tab <span class="docs-emoji">&#x1F44D;</span></p>
-</doc-tab>
-</doc-tabs>
-<hr />
-<doc-anchor-target id="empty-lines">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#empty-lines">#</doc-anchor-trigger>
-        <span>Empty lines</span>
-    </h2>
-</doc-anchor-target>
-<p>Extra empty lines at the start or end of the Tab are allowable, although ignored. Tabs can contain any number of leading or trailing empty lines.</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-markdown"><code v-pre class="language-markdown">+++ Tab 1
-
-This is a Tab
-
-+++ Tab 2
-This is another Tab
-+++ Tab 3
-
-Wow! Yet another tab :+1:
-
-+++</code></pre>
-</doc-codeblock></div>
-<doc-tabs>
-<doc-tab id="tab-1">
-<template #title>Tab 1</template>
-<p>This is a Tab</p>
-</doc-tab>
-<doc-tab id="tab-2">
-<template #title>Tab 2</template>
-<p>This is another Tab</p>
-</doc-tab>
-<doc-tab id="tab-3">
-<template #title>Tab 3</template>
-<p>Wow! Yet another tab <span class="docs-emoji">&#x1F44D;</span></p>
-</doc-tab>
-</doc-tabs>
-<hr />
-<doc-anchor-target id="anchors">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#anchors">#</doc-anchor-trigger>
-        <span>Anchors</span>
-    </h2>
-</doc-anchor-target>
-<p>Each Tab is an anchor that allows for linking directly to the tab by passing the anchor in a URL.</p>
-<p>If the tab anchor is passed in the URL, when the page loads, the page will be automatically scrolled to that tab position and the tab will be selected.</p>
-<p>To get the tab URL with the anchor, right-click on the tab and select <code v-pre>Copy Link Address</code>.</p>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-markdown"><code v-pre class="language-markdown">[Tab anchor link](#tab-3)</code></pre>
-</doc-codeblock></div>
-<p><doc-anchor-trigger to="#tab-3">Tab anchor link</doc-anchor-trigger></p>
+<p>Here is where you find information about Learner.Link. Below are some links.</p>
 
 
-<div class="flex items-center mt-6 mb-6">
-    <span>
-        <a href="/tags/">
-            <svg class="inline-block -mb-px mr-1.5 text-blue-500 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" overflow="visible" fill="currentColor"><g><path d="M21.3 9.88l-8.59-8.59C12.52 1.11 12.27 1 12 1H2c-.55 0-1 .45-1 1v10c0 .27.11.52.29.71l8.59 8.58c.57.57 1.32.88 2.12.88s1.55-.31 2.12-.88l7.17-7.17a3.009 3.009 0 00.01-4.24zm-1.42 2.82l-7.17 7.17c-.39.39-1.02.39-1.42 0L3 11.59V3h8.59l8.29 8.29c.39.39.39 1.03 0 1.41z" /><path d="M7.01 6C6.45 6 6 6.45 6 7s.45 1 1 1 1-.45 1-1-.44-1-.99-1z" /></g></svg>
-        </a>
-        <span class="mr-2"><a href="/tags/component/" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
-    <span>component</span>
-</a></span>
-    </span>
-</div>
 
 
                 <!-- Required only on API pages -->
@@ -360,7 +257,7 @@ Wow! Yet another tab :+1:
             </div>
 
             <div class="flex flex-wrap items-center justify-between mt-14">
-    <a class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-blue-500 dark:text-blue-400 hover:text-blue-700 hover:underline" href="https://github.com/JoelMTaylor/Documentation/blob/main/components/tab.md" target="_blank" rel="noopener">
+    <a class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-blue-500 dark:text-blue-400 hover:text-blue-700 hover:underline" href="https://github.com/JoelMTaylor/Documentation/blob/main/LearnerLink/LearnerLink_Main.md" target="_blank" rel="noopener">
         <svg class="mr-1.5" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M20 12c-.55 0-1 .45-1 1v7c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h7c.55 0 1-.45 1-1s-.45-1-1-1H4C2.35 3 1 4.35 1 6v14c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-7c0-.55-.45-1-1-1z" /><path d="M22.21 1.79c-1.18-1.18-3.24-1.18-4.41 0l-9.5 9.5c-.13.13-.22.29-.26.46l-1 4c-.08.34.01.7.26.95.18.2.44.3.7.3.08 0 .16-.01.24-.03l4-1c.18-.04.34-.13.46-.26l9.5-9.5c1.22-1.22 1.22-3.2.01-4.42zm-1.42 3l-9.3 9.3-2.11.53.53-2.11 9.3-9.3c.42-.42 1.16-.42 1.59 0 .43.43.43 1.15-.01 1.58z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
         <span>Edit this page</span>
     </a>
@@ -370,20 +267,20 @@ Wow! Yet another tab :+1:
 
 <nav class="flex mt-14">
     <div class="w-1/2">
-        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/components/reference-link/">
+        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/hosting/github-pages/">
             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
             <span>
                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                <span class="block mt-1">Reference link</span>
+                <span class="block mt-1">GitHub Pages</span>
             </span>
         </a>
     </div>
 
     <div class="w-1/2">
-        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/configuration/project/">
+        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/sharepoint/sharepoint_main/">
             <span>
                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                <span class="block mt-1">Project config</span>
+                <span class="block mt-1">SharePoint</span>
             </span>
             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
         </a>
@@ -434,7 +331,7 @@ Wow! Yet another tab :+1:
 
         <div id="docs-overlay-target"></div>
 
-        <script>window.__DOCS__ = { "title": "Tab", icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
+        <script>window.__DOCS__ = { "title": "Learner.Link", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
         <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="9ec0e13c-1299-4c3f-a5e9-ff39363c6960";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
     </body>
 </html>
