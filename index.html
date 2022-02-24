@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" class="h-full">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HLTYMRVPG4"></script>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-HLTYMRVPG4');</script>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="turbo-cache-control" content="no-cache">
 
     <!-- Primary Meta Tags -->
-    <title>Documentation</title>
-    <meta name="title" content="Documentation">
-    <meta name="description" content="Repository to house all documentation. To work in conjunction with ReType." />
+    <title>Welcome to Retype - Generate, publish, and share documentation</title>
+    <meta name="title" content="Welcome to Retype - Generate, publish, and share documentation">
+    <meta name="description" content="Retype is an ✨ ultra-high-performance ✨ generator that builds a website based on simple text files. Focus on your writing while Retype builds the rest." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/">
-    <meta property="og:title" content="Documentation">
-    <meta property="og:description" content="Repository to house all documentation. To work in conjunction with ReType.">
+    <meta property="og:url" content="https://retype.com/">
+    <meta property="og:title" content="Welcome to Retype - Generate, publish, and share documentation">
+    <meta property="og:description" content="Retype is an ✨ ultra-high-performance ✨ generator that builds a website based on simple text files. Focus on your writing while Retype builds the rest.">
+    <meta property="og:image" content="https://retype.com/static/retype-hero.svg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="/">
-    <meta property="twitter:title" content="Documentation">
-    <meta property="twitter:description" content="Repository to house all documentation. To work in conjunction with ReType.">
+    <meta property="twitter:url" content="https://retype.com/">
+    <meta property="twitter:title" content="Welcome to Retype - Generate, publish, and share documentation">
+    <meta property="twitter:description" content="Retype is an ✨ ultra-high-performance ✨ generator that builds a website based on simple text files. Focus on your writing while Retype builds the rest.">
+    <meta property="twitter:image" content="https://retype.com/static/retype-hero.svg">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=1.11.2.698977298133" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.11.2.698978106910" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.698977298133" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.698978106910" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.698977298133" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.698978106910" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -44,8 +49,11 @@
         <div class="flex items-center justify-between h-full py-2 md:w-75">
             <div class="flex items-center px-2 md:px-6">
                 <a id="docs-site-logo" href="/" class="flex items-center leading-snug text-2xl">
-                    <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Project Name</span>
-                </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Docs</span>
+                    <span class="flex-grow-0 flex-shrink-0 overflow-hidden">
+                        <img class="max-h-10 dark:hidden md:inline-block" src="/static/retype-logo.svg">
+                        <img class="max-h-10 hidden dark:inline-block" src="/static/retype-logo-dark.svg">
+                    </span>
+                </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">v1.11.2</span>
             </div>
 
             <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
@@ -56,7 +64,54 @@
             <nav class="hidden md:flex">
     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
         <li class="md:mr-6">
-            <a class="block py-2 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="https://retype.com/guides/getting-started/">Getting Started</a>
+            <a class="inline-flex items-center py-2 md:mb-0 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="/">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                    <g fill="currentColor">
+                        <path fill-rule="evenodd" d="M11.03 2.59a1.5 1.5 0 011.94 0l7.5 6.363a1.5 1.5 0 01.53 1.144V19.5a1.5 1.5 0 01-1.5 1.5h-5.75a.75.75 0 01-.75-.75V14h-2v6.25a.75.75 0 01-.75.75H4.5A1.5 1.5 0 013 19.5v-9.403c0-.44.194-.859.53-1.144l7.5-6.363zM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 01.75-.75h3.5a.75.75 0 01.75.75v6.25h5v-9.403L12 3.734z"/>
+                    </g>
+                </svg>
+                <span>Home</span>
+            </a>
+        </li>
+        <li class="md:mr-6">
+            <a class="inline-flex items-center py-2 md:mb-0 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/retypeapp/retype/issues" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                    <g fill="currentColor">
+                        <path fill-rule="evenodd" d="M2.5 12a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0zM12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1zm0 13a2 2 0 100-4 2 2 0 000 4z"/>
+                    </g>
+                </svg>
+                <span>Issues</span>
+            </a>
+        </li>
+        <li class="md:mr-6">
+            <a class="inline-flex items-center py-2 md:mb-0 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/retypeapp/retype/discussions" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                    <g fill="currentColor">
+                        <path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v9.5C0 13.216.784 14 1.75 14H3v1.543a1.457 1.457 0 002.487 1.03L8.061 14h6.189A1.75 1.75 0 0016 12.25v-9.5A1.75 1.75 0 0014.25 1H1.75zM1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v9.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 15.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-9.5z"/><path d="M22.5 8.75a.25.25 0 00-.25-.25h-3.5a.75.75 0 010-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0122.25 20H21v1.543a1.457 1.457 0 01-2.487 1.03L15.939 20H10.75A1.75 1.75 0 019 18.25v-1.465a.75.75 0 011.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 01.53.22l2.72 2.72v-2.19a.75.75 0 01.75-.75h2a.25.25 0 00.25-.25v-9.5z"/>
+                    </g>
+                </svg>
+                <span>Discussions</span>
+            </a>
+        </li>
+        <li class="md:mr-6">
+            <a class="inline-flex items-center py-2 md:mb-0 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/retypeapp/retype" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                    <g fill="currentColor">
+                        <symbol id="mark-github-icon-symbol" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></symbol><use xlink:href="#mark-github-icon-symbol" />
+                    </g>
+                </svg>
+                <span>GitHub</span>
+            </a>
+        </li>
+        <li class="md:mr-6">
+            <a class="inline-flex items-center py-2 md:mb-0 text-sm text-gray-400 whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/retypeapp/">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                    <g fill="currentColor">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                    </g>
+                </svg>
+                <span>Twitter</span>
+            </a>
         </li>
     </ul>
 </nav>
@@ -144,7 +199,19 @@
                 <nav>
                     <ul class="flex flex-wrap justify-center items-center">
                         <li class="mr-6">
-                            <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://retype.com/guides/getting-started/">Getting Started</a>
+                            <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="/README.md">Home</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/retypeapp/retype/issues">Issues</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/retypeapp/retype/discussions">Discussions</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://github.com/retypeapp/retype">GitHub</a>
+                        </li>
+                        <li class="mr-6">
+                            <a class="block py-1 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://twitter.com/retypeapp/">Twitter</a>
                         </li>
                     </ul>
                 </nav>
@@ -176,13 +243,156 @@
                 <div id="docs-sidebar-right-toggle"></div>
                
                 <!-- Page content  -->
-<doc-anchor-target id="documentation" class="break-words">
+<doc-anchor-target id="welcome-to-retype" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#documentation">#</doc-anchor-trigger>
-        <span>Documentation</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#welcome-to-retype">#</doc-anchor-trigger>
+        <span>Welcome to Retype</span>
     </h1>
 </doc-anchor-target>
-<p>Repository to house all documentation. To work in conjunction with ReType.</p>
+<p><a href="https://retype.com/">Retype</a> is an <span class="docs-emoji">&#x2728;</span> ultra-high-performance <span class="docs-emoji">&#x2728;</span> generator that builds a website based on simple text files. Focus on your writing while Retype builds the rest.</p>
+<p><figure class="content-center">
+    <img src="static/retype-hero.svg" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>No coding is required and just one Markdown file, such as a <a href="https://www.makeareadme.com/"><code v-pre>README.md</code></a>, will get you started.</p>
+<p>The <a href="https://retype.com/">retype.com</a> website was generated using Retype. View the <a href="https://github.com/retypeapp/retype/blob/main/README.md">source</a> used to generate this very page.</p>
+<p>A new Retype powered website can be up and running within seconds once Retype is installed, which itself takes only a few seconds. <span class="docs-emoji">&#x1F44D;</span></p>
+<hr />
+<doc-anchor-target id="quick-start">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#quick-start">#</doc-anchor-trigger>
+        <span>Quick start</span>
+    </h2>
+</doc-anchor-target>
+<p>You can install Retype using <code v-pre>npm</code>, <code v-pre>yarn</code>, or the <code v-pre>dotnet</code> CLI.</p>
+<p>From your command line, navigate to a folder location where you have one or more Markdown <code v-pre>.md</code> files, such as a GitHub project.</p>
+<p>Next, choose one of the following tools to first install <code v-pre>retypeapp</code> and then start Retype by using the <code v-pre>retype watch</code> <a href="guides/cli/#retype-watch">command</a>:</p>
+<doc-tabs>
+<doc-tab id="npm">
+<template #title>NPM</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">npm install retypeapp --global
+retype watch</code></pre>
+</doc-codeblock></div>
+</doc-tab>
+<doc-tab id="yarn">
+<template #title>Yarn</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">yarn global add retypeapp
+retype watch</code></pre>
+</doc-codeblock></div>
+</doc-tab>
+<doc-tab id="dotnet">
+<template #title>dotnet</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">dotnet tool install retypeapp --global
+retype watch</code></pre>
+</doc-codeblock></div>
+</doc-tab>
+</doc-tabs>
+<p>That&#x27;s it! Your new Retype website should be up and running.</p>
+<div class="flex mb-6">
+    <div class="flex-shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3">
+<p>You will require either <a href="https://www.npmjs.com/get-npm">npm</a>, <a href="https://classic.yarnpkg.com/en/docs/install/">Yarn</a>, or the <a href="https://dotnet.microsoft.com/download/dotnet-core">dotnet</a> CLI to be installed before installing Retype. Only one of those three is required, although all three could be installed on your machine too. It&#x27;s up to you. <span class="docs-emoji">&#x1F64C;</span></p>
+<p>All operating systems are supported, including Mac, Windows, and Linux.</p>
+        </div>
+    </div>
+</div>
+<hr />
+<doc-anchor-target id="live-reload">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#live-reload">#</doc-anchor-trigger>
+        <span>Live reload</span>
+    </h2>
+</doc-anchor-target>
+<p>If a change is detected, such as editing and saving an <code v-pre>.md</code> file, your Retype website will be updated almost instantly within the browser.</p>
+<p>The <code v-pre>retype watch</code> command runs the following three commands and listens for any new changes in your content.</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">retype init
+retype build
+retype run</code></pre>
+</doc-codeblock></div>
+<p>After running <code v-pre>retype watch</code>, edit any <code v-pre>.md</code> file and see your change appear in the browser.</p>
+<!--
+!!! COMING SOON
+
+Retype can also build amazing reference documentation based upon your projects source code. C# projects are currently in beta support, TypeScript is coming soon, and there are plans for many more languages in the future.
+
+Just point Retype at a C# project and reference documentation will be generated based on your library's source code, code comments, and metadata.
+
+!!!
+-->
+<hr />
+<doc-anchor-target id="features">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#features">#</doc-anchor-trigger>
+        <span>Features</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="it-just-works">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#it-just-works">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F389;</span> It just works</span>
+    </h4>
+</doc-anchor-target>
+<p>Retype has been built to be easy to use and should <em>&quot;just work&quot;</em> out-of-the-box without any special configuration or troublesome setup.</p>
+<doc-anchor-target id="lightning-fast">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lightning-fast">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x26A1;</span> Lightning fast</span>
+    </h4>
+</doc-anchor-target>
+<p>Don&#x27;t blink. Retype was built for speed.</p>
+<doc-anchor-target id="easy-install">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#easy-install">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x2705;</span> Easy install</span>
+    </h4>
+</doc-anchor-target>
+<p><a href="guides/getting-started/">Installation</a> takes only a few seconds. Then you need at least one Markdown <code v-pre>.md</code> file which Retype will start building a new website from.</p>
+<doc-anchor-target id="powerful">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#powerful">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F4AA;</span> Powerful</span>
+    </h4>
+</doc-anchor-target>
+<p>Project level <a href="configuration/project/">configuration</a> using <code v-pre>retype.yml</code> unlocks many more Retype features and customization.</p>
+<doc-anchor-target id="simple-formatting">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#simple-formatting">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x270F;&#xFE0F;</span> Simple formatting</span>
+    </h4>
+</doc-anchor-target>
+<p>Pages are <a href="guides/formatting/">formatted</a> using Markdown syntax and Retype <a href="components/">components</a>. Page level <a href="configuration/page/">configuration</a> is available, such as customizing the navigation <code v-pre>label</code> or <code v-pre>description</code> used by search engines.</p>
+<doc-anchor-target id="host-anywhere">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#host-anywhere">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F4BB;</span> Host anywhere</span>
+    </h4>
+</doc-anchor-target>
+<p>Retype generates a basic HTML website that you can host on any web hosting service, such as <a href="https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site">GitHub Pages</a>. No special server-side software or external dependencies are required. You can host your Retype site as a public website or as a private website inside your organization.</p>
+<hr />
+<doc-anchor-target id="support">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#support">#</doc-anchor-trigger>
+        <span>Support</span>
+    </h2>
+</doc-anchor-target>
+<p>Technical support questions are best asked in the <a href="https://github.com/retypeapp/retype/discussions">Discussions</a>. The discussions are monitored 24 hours a day and we will do our best to assist.</p>
+<p>If you find a defect or would like to submit a feature request, please create an <a href="https://github.com/retypeapp/retype/issues">Issue</a> and we will investigate right away.</p>
+<p>Do you have a general inquiry? Please feel free to contact us at <a href="mailto:hello@object.net">hello@object.net</a>.</p>
 
 
 
@@ -191,7 +401,29 @@
                 <doc-toolbar-member-filter-no-results />
             </div>
 
-            
+            <div class="flex flex-wrap items-center justify-between mt-14">
+    <a class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-blue-500 dark:text-blue-400 hover:text-blue-700 hover:underline" href="https://github.com/retypeapp/retype/blob/main/README.md" target="_blank" rel="noopener">
+        <svg class="mr-1.5" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M20 12c-.55 0-1 .45-1 1v7c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h7c.55 0 1-.45 1-1s-.45-1-1-1H4C2.35 3 1 4.35 1 6v14c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-7c0-.55-.45-1-1-1z" /><path d="M22.21 1.79c-1.18-1.18-3.24-1.18-4.41 0l-9.5 9.5c-.13.13-.22.29-.26.46l-1 4c-.08.34.01.7.26.95.18.2.44.3.7.3.08 0 .16-.01.24-.03l4-1c.18-.04.34-.13.46-.26l9.5-9.5c1.22-1.22 1.22-3.2.01-4.42zm-1.42 3l-9.3 9.3-2.11.53.53-2.11 9.3-9.3c.42-.42 1.16-.42 1.59 0 .43.43.43 1.15-.01 1.58z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+        <span>Edit this page</span>
+    </a>
+
+    <!--<p class="my-2.5 text-gray-500 dark:text-dark-350 text-sm">Last updated on <strong>2021-03-14</strong> by <strong>Geoffrey McGill</strong></p>-->
+</div>
+
+<nav class="flex mt-14">
+    <div class="w-1/2">
+    </div>
+
+    <div class="w-1/2">
+        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/guides/getting-started/">
+            <span>
+                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                <span class="block mt-1">Getting Started</span>
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+        </a>
+    </div>
+</nav>
 
 
         </main>
@@ -200,10 +432,13 @@
             <footer class="flex flex-wrap items-center justify-between">
     <div>
         <ul class="flex flex-wrap items-center text-sm">
+    <li>
+        <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200 md:mb-0" href="/about/">About</a>
+    </li>
 </ul>
 
     </div>
-    <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2022. All rights reserved.</p>
+    <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2022. <a href="https://object.net/">Object.NET Inc.</a> All rights reserved.</p>
 </div>
 </footer>
 
@@ -234,6 +469,7 @@
 
         <div id="docs-overlay-target"></div>
 
-        <script>window.__DOCS__ = { "title": "Documentation", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+        <script>window.__DOCS__ = { "title": "Welcome", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+        <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="9ec0e13c-1299-4c3f-a5e9-ff39363c6960";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
     </body>
 </html>
