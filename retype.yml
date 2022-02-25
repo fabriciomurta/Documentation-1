@@ -20,12 +20,12 @@ links:
 
   - text: Edumate
     link: https://github.com/JoelMTaylor/Documentation/Edumate
-    icon: issue-opened
+    icon: /static/Outlook_80x80.svg
     target: blank
 
   - text: Learner.Link
     link: https://github.com/JoelMTaylor/Documentation/LearnerLink
-    icon: comment-discussion
+    icon: /static/PowerPoint_64x64.svg
     target: blank
 
   - text: SharePoint
