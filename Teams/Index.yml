@@ -1,0 +1,5 @@
+visibility: public
+icon: /static/Teams.svg
+order: 0
+label: null
+expanded: true
