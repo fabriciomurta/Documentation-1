@@ -4,7 +4,7 @@ url: joelmtaylor.github.io/Documentation
 
 branding:
   logo: /static/ccm-logo.svg
-  logoDark: /static/retype-logo-dark.svg
+  logoDark: /static/ccm-logo.svg
   label: v0.1
 
 meta:
