@@ -1,0 +1,5 @@
+visibility: public
+icon: /static/SharePoint.svg
+order: 0
+label: null
+expanded: true
