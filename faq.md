@@ -1,6 +1,8 @@
 ---
+visibility: hidden
 icon: question
-label: FAQ
+order: -105
+label: null
 ---
 # Frequently Asked Questions :thinking_face:
 
