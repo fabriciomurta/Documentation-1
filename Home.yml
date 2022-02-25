@@ -1,5 +1,5 @@
 input: ./
-output: .retype
+output: .Home
 url: joelmtaylor.github.io/Documentation
 
 branding:
@@ -20,7 +20,7 @@ links:
 
   - text: Edumate
     link: https://github.com/JoelMTaylor/Documentation/Edumate
-    icon: <svg xmlns="./static/Outlook_80x80.svg" width="24" height="24" viewBox="0 0 24 24" /svg>
+    icon: <img src="/static/Outlook_80x80.svg" width="24" height="24" viewBox="0 0 24 24" /img>
     target: blank
 
   - text: Learner.Link
