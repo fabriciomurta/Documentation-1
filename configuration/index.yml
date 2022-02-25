@@ -1,1 +1,5 @@
+visibility: hidden
 icon: gear
+order: -103
+label: null
+expanded: true
