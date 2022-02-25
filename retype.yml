@@ -3,8 +3,8 @@ output: .retype
 url: joelmtaylor.github.io/Documentation
 
 branding:
-  logo: /static/ccm-logo.svg
-  logoDark: /static/retype-logo-dark.svg
+  logo: static/ccm-logo.svg
+  logoDark: static/retype-logo-dark.svg
   label: v0.1
 
 meta:
@@ -20,8 +20,8 @@ links:
 
   - text: Edumate
     link: https://github.com/JoelMTaylor/Documentation/Edumate
-    icon: <img src="static/Outlook_80x80.svg" width="24" height="24" viewBox="0 0 24 24" /img>
-    target: blank
+    icon: <img src="static/Outlook_80x80.svg" width="24" height="24" viewBox="0 0 24 24" />
+    target: parent
 
   - text: Learner.Link
     link: https://github.com/JoelMTaylor/Documentation/LearnerLink
