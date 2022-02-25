@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://joelmtaylor.github.io/Documentation/sitemap.xml.gz
+Sitemap: /sitemap.xml.gz
