@@ -16,21 +16,21 @@ edit:
 links:
   - text: Home
     link: /README.md
-    icon: /static/PowerPoint_64x64.svg
+    icon: /static/PowerPoint.svg
 
   - text: Edumate
     link: /Edumate/Edumate_Main.md
-    icon: <svg xmlns="/static/Outlook_80x80.svg" width="100" height="100" viewBox="0 0 100 100" /svg>
+    icon: <img scr="/static/Teams.png" width="100" height="100" /img>
     target: parent
 
   - text: Learner.Link
     link: /LearnerLink/LearnerLink_Main.md
-    icon: <img scr="/static/Outlook_80x80.svg" width="100" height="100" /img>
+    icon: <img scr="/static/Outlook.png" width="100" height="100" /img>
     target: parent
 
   - text: SharePoint
     link: /SharePoint/SharePoint_Main.md
-    icon: [!embed el="embed" width="100"](/static/Outlook_80x80.svg)
+    icon: <img scr="/static/Outlook.svg" width="100" height="100" /img>
     target: parent
 
   - text: Teams
