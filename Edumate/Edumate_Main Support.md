@@ -13,11 +13,12 @@ edumate-support@yourschooldomain
 (e.g. edumate-support@groves.qld.edu.au)
 ||| Microsoft Teams:
 Registrars, Fee Advisors & other academic support staff are active in a Microsoft Teams community. Please contact Sarah, Joel or Cameron to request to be added.
-
+|||
 ### Key team members
 ||| IMAGE Sarah Dawson
 ||| IMAGE Joel Taylor
 ||| IMAGE Cameron Weir
+|||
 
 ## Key links
 [!button variant="primary" corners="square" target="blank" icon=":browser:" iconAlign="left" text="Launch Edumate"](https://staff.ccmschools.app/)
