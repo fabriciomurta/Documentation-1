@@ -3,8 +3,8 @@ output: .retype
 url: joelmtaylor.github.io/Documentation
 
 branding:
-  logo: <img scr="/static/ccm-logo.svg" width="100" height="100" /img>
-  logoDark: [!embed el="embed" width="100"](/static/ccm-logo.svg)
+  logo: /static/ccm-logo.svg
+  logoDark: 
   label: v0.1
 
 meta:
