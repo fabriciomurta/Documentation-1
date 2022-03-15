@@ -16,9 +16,11 @@ Registrars, Fee Advisors & other academic support staff are active in a Microsof
 |||
 ### Key team members
 IMAGE Sarah Dawson (Edumate Coordinator)
+
 IMAGE Joel Taylor (Insert Title Here)
+
 IMAGE Cameron Weir (Corporate Projects Manager)
 
 ## Key links
-[!button variant="primary" corners="square" target="blank" icon="browser" iconAlign="left" text="Launch Edumate"](https://staff.ccmschools.app/) 
+[!button variant="primary" corners="square" target="blank" icon="browser" iconAlign="left" text="Launch Edumate"](https://staff.ccmschools.app/)          
 [!button variant="primary" corners="square" target="blank" icon="code-of-conduct" iconAlign="left" text="Edumate Support Portal"](https://support.edumate.app/)
