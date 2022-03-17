@@ -49,7 +49,7 @@ In addition, staff may choose to use any other password management app or browse
 **Setting up SMS or Microsoft Authenticator app**
 You will be automatically prompted to setup multifactor authentication the first time you login.
 
-![](../static/CorporateSystems/Multi-factorAuthentication/CCM_Unified Authentication_Service_-_Required.png "Multifactor Authentication is Required")
+![](../static/CorporateSystems/Multi-factorAuthentication/CCM_Unified_Authentication_Service_-_Required.png "Multifactor Authentication is Required")
 
 Once you select "Click here to enable Multifactor Authentication", you can select the authentication method you wish to use. We recommend that you set up both options. This can be done once you have configured the first option.
 
