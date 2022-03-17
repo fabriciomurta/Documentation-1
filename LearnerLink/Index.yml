@@ -1,5 +1,6 @@
 visibility: public
-icon: /static/Outlook.svg
+title: Learner.Link
+icon: /static/LearnerLink.svg
 order: 0
 label: null
 expanded: true
