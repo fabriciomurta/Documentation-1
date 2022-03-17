@@ -11,7 +11,6 @@ order: 0
 visibility: public
 ---
 # Multi-factor Authentication (MFA /2FA)
-
 ## What is multi-factor authentication?
 
 Traditionally, users have logged into services using only a username and password combination. This is known as single-factor authentication. One of the problems with single-factor authentication is that a malicious user can easily access your account if they obtain your password. This could occur through a hacking attempt, data leak or [phishing attack](https://ovic.vic.gov.au/privacy/for-agencies/guidance-and-resources/what-are-phishing-attacks-and-how-to-protect-against-them/).
@@ -42,6 +41,7 @@ The following methods generating the authentication tokens are officially suppor
 In addition, staff may choose to use any other password management app or browser extension capable of generating TOTP tokens such as Google Authenticator, 1Password or LastPass. Limited technical support is available for these options but general instructions are provided at the bottom of the page.
 
 **Setting up SMS or Microsoft Authenticator app**
+
 You will be automatically prompted to setup multifactor authentication the first time you login.
 
 ![](../static/CorporateSystems/Multi-factorAuthentication/CCM_Unified_Authentication_Service_-_Required.png "Multifactor Authentication is Required")
@@ -52,11 +52,11 @@ Once you select "Click here to enable Multifactor Authentication", you can selec
 
 When you select "Add Authenticator App", you will be presented with a QR code to scan. <span style="color:red">**You will need to scan this code with a multifactor authentication app.**</span> We recommend that you install the [Microsoft Authenticator](https://www.microsoft.com/en-us/account/authenticator) app as this can also be used for CCM Single Sign-On authentication.
 
-**Setting up Token2 programmable card**
+###**Setting up Token2 programmable card**
 
 This service will be coming soon. Please express interest to your local IT Manager.
 
-**Setting up a generic password management app or browser extension**
+####**Setting up a generic password management app or browser extension**
 
 The following options are common alternatives. They are not officially supported by IT Services:
 1. 1Password (commercial mobile app + browser extension)
