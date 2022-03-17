@@ -1,10 +1,10 @@
 ---
 authors:
-    - name: Cameron Weir
+  - name: Cameron Weir
     email: 
     link: 
     avatar: ../static/CameronWeir_Icon
-    - name: Test text
+  - Test text
 description: 
 icon: 
 layout: default
@@ -22,10 +22,6 @@ To make your account more secure, many services are now adding an additional aut
 A breach of your account can have significant impacts including mass data leaks. This can have serious financial penalties. To protect both yourself and the organisation from liabilities should your account become compromised, we are progressively enabling multi-factor authentication across a range of our services.
 
 [!embed](https://www.microsoft.com/en-us/videoplayer/embed/RE4CQKG?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us)
-
-Test Image
-
-![](../static/CorporateSystems/Multi-factorAuthentication/CCM_Unified_Authentication_Service.png "CCM Unified Authentication Service")
 
 **Christian Community Ministries makes use of two different authentication services. These have separate multifactor authentication requirements and need to be configured individually.**
 
@@ -77,9 +73,9 @@ If your app is unable to scan the QR code, you can add a service manually. To do
 ![](../static/CorporateSystems/Multi-factorAuthentication/CCM_Single_Sign-on.png "CCM Single Sign-on")
 
 For services accessible by students & staff only including:
-*Office 365 including Outlook, Teams, OneDrive etc
-*Ci Anywhere
-*Clickview
+- Office 365 including Outlook, Teams, OneDrive etc
+- Ci Anywhere
+- Clickview
 
 >CCM Single Sign-On accounts will be progressively enabled for multifactor authentication during 2021. 
 
@@ -92,7 +88,7 @@ For services accessible by students & staff only including:
 
 3. The default authentication method is to use the free Microsoft Authenticator app. If you have it installed on your mobile device, select **Next** and follow the prompts to add this account. If you don't have it installed there is a link provided to download it.
 
-If you would rather use SMS messages sent to your phone instead, select **I want to set up a different method**. Microsoft 365 will ask for your mobile number, then send you an SMS message containing a 6-digit code to verify your device.
+&nbsp;&nbsp;&nbsp;&nbsp;If you would rather use SMS messages sent to your phone instead, select **I want to set up a different method**. Microsoft 365 will ask for your mobile number, then send you an SMS message containing a 6-digit code to verify your device.
 
 
 4. Once you complete the instructions to specify your additional verification method, the next time you sign in to Microsoft 365, you'll be prompted to provide the additional verification information or action, such as typing the verification code provided by your authenticator app or sent to you by text message.
