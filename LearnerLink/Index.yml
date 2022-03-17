@@ -1,6 +1,5 @@
 visibility: public
-title: Learner.Link
 icon: /static/LearnerLink.svg
 order: 0
-label: null
+label: Learner.Link
 expanded: true
