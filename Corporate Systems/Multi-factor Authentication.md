@@ -1,5 +1,4 @@
-# Multi-factor Authentication (MFA / 2FA)
-
+---
 author:
     name: Cameron Weir
     email: frank@example.com
@@ -10,6 +9,8 @@ icon:
 layout: default
 order: 0
 visibility: public
+---
+# Multi-factor Authentication (MFA /2FA)
 
 ## What is multi-factor authentication?
 
@@ -21,11 +22,11 @@ A breach of your account can have significant impacts including mass data leaks.
 
 [!embed](https://www.microsoft.com/en-us/videoplayer/embed/RE4CQKG?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us)
 
-### Christian Community Ministries makes use of two different authentication services. These have separate multifactor authentication requirements and need to be configured individually.
+**Christian Community Ministries makes use of two different authentication services. These have separate multifactor authentication requirements and need to be configured individually.**
 
-+++ CCM Unified Authentication Service
++++ ### CCM Unified Authentication Service
 
-![CCM Unified Authentication Service](..static\Corporate Systems\Multi-factor Authentication\CCM Unified Authentication Service.png)
+![](../static/Corporate Systems/Multi-factor Authentication/CCM Unified Authentication Service.png "CCM Unified Authentication Service")
 
 For services accessible by students, staff & parents including:
 - Edumate
@@ -43,13 +44,13 @@ In addition, staff may choose to use any other password management app or browse
 **Setting up SMS or Microsoft Authenticator app**
 You will be automatically prompted to setup multifactor authentication the first time you login.
 
-![Multifactor Authentication is Required](..static\Corporate Systems\Multi-factor Authentication\CCM Unified Authentication Service - Required.png)
+![](../static/Corporate Systems/Multi-factor Authentication/CCM Unified Authentication Service - Required.png "Multifactor Authentication is Required")
 
 Once you select "Click here to enable Multifactor Authentication", you can select the authentication method you wish to use. We recommend that you set up both options. This can be done once you have configured the first option.
 
-![Multifactor Authentication has not been enabled](..static\Corporate Systems\Multi-factor Authentication\CCM Unified Authentication Service - Not enabled)
+![](../static/Corporate Systems/Multi-factor Authentication/CCM Unified Authentication Service - Not enabled "Multifactor Authentication has not been enabled")
 
-When you select "Add Authenticator App", you will be presented with a QR code to scan. <span style="color:red">**You will need to scan this code with a multifactor authentication app.**</span> We recommend that you install the [!Microsoft Authenticator](https://www.microsoft.com/en-us/account/authenticator) app as this can also be used for CCM Single Sign-On authentication.
+When you select "Add Authenticator App", you will be presented with a QR code to scan. <span style="color:red">**You will need to scan this code with a multifactor authentication app.**</span> We recommend that you install the [Microsoft Authenticator](https://www.microsoft.com/en-us/account/authenticator) app as this can also be used for CCM Single Sign-On authentication.
 
 **Setting up Token2 programmable card**
 This service will be coming soon. Please express interest to your local IT Manager.
@@ -58,17 +59,17 @@ This service will be coming soon. Please express interest to your local IT Manag
 The following options are common alternatives. They are not officially supported by IT Services:
 1. 1Password (commercial mobile app + browser extension)
 2. LastPass (commercial mobile app + browser extension)
-3. [!Gauth Authenticator](https://chrome.google.com/webstore/detail/gauth-authenticator/ilgcnhelpchnceeipipijaljkblbcobl) (open source browser extension)
-4. [!WinAuth](https://winauth.github.io/winauth/index.html) (open source desktop app)
+3. [Gauth Authenticator](https://chrome.google.com/webstore/detail/gauth-authenticator/ilgcnhelpchnceeipipijaljkblbcobl) (open source browser extension)
+4. [WinAuth](https://winauth.github.io/winauth/index.html) (open source desktop app)
 
 If your app is unable to scan the QR code, you can add a service manually. To do this you will need to extract the secret key from the QR code:
 1. Right-click the displayed QR code and save it to your computer
-2. Upload the QR code to [!https://qrinfopoint.com/qr-code-scanner/](https://qrinfopoint.com/qr-code-scanner/)
+2. Upload the QR code to [https://qrinfopoint.com/qr-code-scanner/](https://qrinfopoint.com/qr-code-scanner/)
 3. The secret key will be shown on screen. It is a string of numbers and letters.
 4. In your preferred app, add a new service, look for a one time password option and copy the secret key.
 
-+++ CCM Single Sign-On
-![CCM Single Sign-on](..static\Corporate Systems\Multi-factor Authentication\CCM Single Sign-on)
++++ ### CCM Single Sign-On
+![](../static/Corporate Systems/Multi-factor Authentication/CCM Single Sign-on "CCM Single Sign-on")
 
 For services accessible by students & staff only including:
 *Office 365 including Outlook, Teams, OneDrive etc
@@ -78,7 +79,7 @@ For services accessible by students & staff only including:
 >CCM Single Sign-On accounts will be progressively enabled for multifactor authentication during 2021. 
 
 1. Sign into Microsoft 365 with your work or school account with your password like you normally do. After you choose **Sign in**, you'll be prompted for more information.
-![More information required](..static\Corporate Systems\Multi-factor Authentication\CCM Single Sign-on - More Information)
+![](../static/Corporate Systems/Multi-factor Authentication/CCM Single Sign-on - More Information "More information required")
 
 
 2. Choose **Next**.
