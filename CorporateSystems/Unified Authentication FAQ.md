@@ -14,7 +14,6 @@ visibility: public
 # Unified Authentication Service - FAQ and Troubleshooting
 
 The CCM Unified Authentication Service provides a single sign-on system for students, parents and staff to the following services:
-
 1. Edumate
 2. Learner.Link on Canvas​​​​​​​​​​​​​​
 3. Parent Mobile Apps
@@ -65,13 +64,11 @@ One of the following issues is present:
 - The account has the 'force password change at next login' flag is enabled​​​​​​​​​​​​​​.
 
 #### Account is locked out
-
 The user has attempted to login with invalid credentials too many times. You will need to manually unlock the account from the [CloudWorks management portal​​​​​​​](http://ccmschools.cloudworkengine.net/).
 
 More information about how lockouts work is [available here](https://wiki.studentnet.net/index.php?title=Staggered_Logins).
 
 #### "User not found" or similar error in Canvas & Edumate
-
 One of the following issues is present:
 - If error affects Canvas & Edumate: 
 	+ The employeeID attribute in Active Directory is not set correctly to the Edumate Contact ID (SIS ID). The correct value can be most easily retrieved by viewing the user in Canvas.
@@ -81,22 +78,18 @@ One of the following issues is present:
 +++ Parent Errors
 
 #### Parent does not know their username
-
 The parents username is their Edumate Contact ID (SIS ID). This can be retrieved by:
 - Viewing the parent in Canvas.
 - Viewing the access tab in Edumate.
 - Using the username recovery feature on the UAS sign-in page. This requires the account to have a unique email address associated with it.
 
 #### Parent does not know their password
-
 The parent must follow the password reset process on the UAS sign-in page.
 
 #### Parent can not reset their password because their recovery details are incorrect
-
 The College Registrar must update their email address and/or mobile phone number in Edumate. This will synchronise with the unified authentication system overnight at which point the parent can try again.
 
 #### Parent account does not exist
-
 This issue will need to be referred to the College Registar. The criteria for an account to be provisioned requires the following setttings in Edumate:
 - The parent is linked to a current student.
 - The parent is a 'report carer'.
@@ -104,7 +97,6 @@ This issue will need to be referred to the College Registar. The criteria for an
 - The parent is enabled as a user.
 
 #### Account is locked out
-
 The user has attempted to login with invalid credentials too many times. You will need to manually unlock the account from the [CloudWorks management portal​​​​​​​](http://ccmschools.cloudworkengine.net/)​​​​​​​.
 
 "User not found" or similar error in Canvas & Edumate

@@ -5,12 +5,14 @@ authors:
     link: 
     avatar: ../static/CameronWeir_Icon.png
 description: 
+title: Multi-Factor Authentication
 icon: 
 layout: default
 order: 0
 visibility: public
 ---
-# Multi-factor Authentication (MFA /2FA)
+# Multi-factor Authentication (MFA / 2FA)
+
 ## What is multi-factor authentication?
 
 Traditionally, users have logged into services using only a username and password combination. This is known as single-factor authentication. One of the problems with single-factor authentication is that a malicious user can easily access your account if they obtain your password. This could occur through a hacking attempt, data leak or [phishing attack](https://ovic.vic.gov.au/privacy/for-agencies/guidance-and-resources/what-are-phishing-attacks-and-how-to-protect-against-them/).
@@ -26,7 +28,7 @@ Christian Community Ministries makes use of two different authentication service
 
 +++ CCM Unified Authentication Service
 
-![](../static/CorporateSystems/Multi-factorAuthentication/CCM_Unified_Authentication_Service.png "CCM Unified Authentication Service")
+![CCM Unified Authentication Service](../static/CorporateSystems/Multi-factorAuthentication/CCM_Unified_Authentication_Service.png "CCM Unified Authentication Service")
 
 For services accessible by students, staff & parents including:
 - Edumate
@@ -45,11 +47,11 @@ In addition, staff may choose to use any other password management app or browse
 
 You will be automatically prompted to setup multifactor authentication the first time you login.
 
-![](../static/CorporateSystems/Multi-factorAuthentication/CCM_Unified_Authentication_Service_-_Required.png "Multifactor Authentication is Required")
+![Multifactor Authentication is Required](../static/CorporateSystems/Multi-factorAuthentication/CCM_Unified_Authentication_Service_-_Required.png "Multifactor Authentication is Required")
 
 Once you select "Click here to enable Multifactor Authentication", you can select the authentication method you wish to use. We recommend that you set up both options. This can be done once you have configured the first option.
 
-![](../static/CorporateSystems/Multi-factorAuthentication/CCM_Unified_Authentication_Service_-_Not_enabled.png "Multifactor Authentication has not been enabled")
+![Multifactor Authentication has not been enabled](../static/CorporateSystems/Multi-factorAuthentication/CCM_Unified_Authentication_Service_-_Not_enabled.png "Multifactor Authentication has not been enabled")
 
 When you select "Add Authenticator App", you will be presented with a QR code to scan. <span style="color:red">**You will need to scan this code with a multifactor authentication app.**</span> We recommend that you install the [Microsoft Authenticator](https://www.microsoft.com/en-us/account/authenticator) app as this can also be used for CCM Single Sign-On authentication.
 
@@ -72,7 +74,7 @@ If your app is unable to scan the QR code, you can add a service manually. To do
 4. In your preferred app, add a new service, look for a one time password option and copy the secret key.
 
 +++ CCM Single Sign-On
-![](../static/CorporateSystems/Multi-factorAuthentication/CCM_Single_Sign-on.png "CCM Single Sign-on")
+![CCM Single Sign-On](../static/CorporateSystems/Multi-factorAuthentication/CCM_Single_Sign-on.png "CCM Single Sign-On")
 
 For services accessible by students & staff only including:
 - Office 365 including Outlook, Teams, OneDrive etc
@@ -82,7 +84,7 @@ For services accessible by students & staff only including:
 >CCM Single Sign-On accounts will be progressively enabled for multifactor authentication during 2021. 
 
 1. Sign into Microsoft 365 with your work or school account with your password like you normally do. After you choose **Sign in**, you'll be prompted for more information.
-![](../static/CorporateSystems/Multi-factorAuthentication/CCM_Single_Sign-on_-_More_Information.png "More information required")
+![More information required for SSO](../static/CorporateSystems/Multi-factorAuthentication/CCM_Single_Sign-on_-_More_Information.png "More information required")
 
 
 2. Choose **Next**.
