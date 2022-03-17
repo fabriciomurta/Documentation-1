@@ -11,7 +11,7 @@ order: 0
 visibility: public
 ---
 # Multi-factor Authentication (MFA /2FA)
-## What is multi-factor authentication?  {.unlisted .unnumbered}
+## What is multi-factor authentication?
 
 Traditionally, users have logged into services using only a username and password combination. This is known as single-factor authentication. One of the problems with single-factor authentication is that a malicious user can easily access your account if they obtain your password. This could occur through a hacking attempt, data leak or [phishing attack](https://ovic.vic.gov.au/privacy/for-agencies/guidance-and-resources/what-are-phishing-attacks-and-how-to-protect-against-them/).
 
@@ -21,7 +21,8 @@ To make your account more secure, many services are now adding an additional aut
 
 [!embed](https://www.microsoft.com/en-us/videoplayer/embed/RE4CQKG?pid=ocpVideo0-innerdiv-oneplayer&postJsllMsg=true&maskLevel=20&market=en-us)
 
-**Christian Community Ministries makes use of two different authentication services. These have separate multifactor authentication requirements and need to be configured individually.**
+### Two Options for MFA Authentication
+Christian Community Ministries makes use of two different authentication services. **These have separate multifactor authentication requirements and need to be configured individually.**
 
 +++ CCM Unified Authentication Service
 
