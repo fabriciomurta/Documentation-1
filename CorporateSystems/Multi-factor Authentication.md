@@ -3,8 +3,9 @@ authors:
   - name: Cameron Weir
     email: 
     link: 
-    avatar: ../static/CameronWeir_Icon
-  - Test text
+    avatar: ../static/CameronWeir_Icon.png
+  - Corporate Projects Manager
+    avatar: :mage:
 description: 
 icon: 
 layout: default
@@ -88,7 +89,7 @@ For services accessible by students & staff only including:
 
 3. The default authentication method is to use the free Microsoft Authenticator app. If you have it installed on your mobile device, select **Next** and follow the prompts to add this account. If you don't have it installed there is a link provided to download it.
 
-&nbsp;&nbsp;&nbsp;&nbsp;If you would rather use SMS messages sent to your phone instead, select **I want to set up a different method**. Microsoft 365 will ask for your mobile number, then send you an SMS message containing a 6-digit code to verify your device.
+* If you would rather use SMS messages sent to your phone instead, select **I want to set up a different method**. Microsoft 365 will ask for your mobile number, then send you an SMS message containing a 6-digit code to verify your device.
 
 
 4. Once you complete the instructions to specify your additional verification method, the next time you sign in to Microsoft 365, you'll be prompted to provide the additional verification information or action, such as typing the verification code provided by your authenticator app or sent to you by text message.
