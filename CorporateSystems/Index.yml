@@ -1,5 +1,5 @@
 visibility: public
-icon: :icon-organization:
+icon: organization
 order: 0
 label: null
 expanded: true

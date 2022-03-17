@@ -25,9 +25,9 @@ New Courses will need to be created prior to the first Edval / Edumate sync for 
 
 ## Checklist of tasks to manage this process:
 
-1. At the end of 2019 Semester Reporting, identify Year 12 2019 courses in Edumate that will retiring.  Retire the courses with the following guidelines:
+1. At the end of 2019 Semester Reporting, identify Year 12 2019 courses in Edumate that will retiring.  [Retire the courses](https://ccm.instructure.com/courses/2711/pages/courses-creating-and-editing?module_item_id=38384) with the following guidelines:
 	a. Update course name with the suffix of "(pre 2020)".
 	b. Update class code base with an 'X'.
-2. Identify and create Year 12 2020 General courses in Edumate.  Unique names and codes will be required to do this, if replacing existing ones.  Please note, it is possible to do this step ahead of Step 1.  However you will need to temporarily add additional information in order to create the 'unique' values as required by Edumate as per below.  This however, will need to be removed prior to an Edval / Edumate Sync and will be able to be completed once current courses have been retired.
+2. Identify and create Year 12 2020 General [courses in Edumate](https://ccm.instructure.com/courses/2711/pages/courses-why?module_item_id=38338).  Unique names and codes will be required to do this, if replacing existing ones.  Please note, it is possible to do this step ahead of Step 1.  However you will need to temporarily add additional information in order to create the 'unique' values as required by Edumate as per below.  This however, will need to be removed prior to an Edval / Edumate Sync and will be able to be completed once current courses have been retired.
 	a. Include in course name suffix of "(2020)".
 	b. Include in class code base "2020".
