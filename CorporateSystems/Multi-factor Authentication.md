@@ -4,8 +4,6 @@ authors:
     email: 
     link: 
     avatar: ../static/CameronWeir_Icon.png
-  - Corporate Projects Manager
-    avatar: :mage:
 description: 
 icon: 
 layout: default
@@ -55,9 +53,11 @@ Once you select "Click here to enable Multifactor Authentication", you can selec
 When you select "Add Authenticator App", you will be presented with a QR code to scan. <span style="color:red">**You will need to scan this code with a multifactor authentication app.**</span> We recommend that you install the [Microsoft Authenticator](https://www.microsoft.com/en-us/account/authenticator) app as this can also be used for CCM Single Sign-On authentication.
 
 **Setting up Token2 programmable card**
+
 This service will be coming soon. Please express interest to your local IT Manager.
 
 **Setting up a generic password management app or browser extension**
+
 The following options are common alternatives. They are not officially supported by IT Services:
 1. 1Password (commercial mobile app + browser extension)
 2. LastPass (commercial mobile app + browser extension)
