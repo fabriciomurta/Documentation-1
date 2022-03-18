@@ -81,3 +81,4 @@ This trigger you have a few options as part of your setup, but please note in th
 The Parent Mobile App screens, after clicking on the "Absence Menu" and selecting a student. Parents will be prompted to click on the "absence menu" based on a notification badge that appears in the app, for the triggers you have set up and "run now" in Attendance Setup.
 
 | ![Attendance Notification on the Parent Mobile App](../static/Edumate/AttendanceWorkflow/Absences_Oliver_1.png "Absences for Oliver 1") | ![Student Absence Explanation Screen](../static/Edumate/AttendanceWorkflow/Absences_Oliver_2.png "Absences for Oliver 2") | ![Parents select 'other: please provide explanation](../static/Edumate/AttendanceWorkflow/Absences_Oliver_3.png "Absences for Oliver 3") |
+| :---: | :---: | :---: |

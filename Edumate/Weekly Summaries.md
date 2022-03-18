@@ -96,19 +96,19 @@ This is two discrete sections on the weekly summaries, but operate in the same w
 Most Colleges already have this in place, but for new comers, changes of practice, or those ready to embark on this automation here is how to set up the schedule.
 
 Navigate to the report of choice as itemised above.
-- Click on the Schedule tab
-- Select 'Relative Date' - always RELATIVE
-- Select 'As at [date]'
-- Click on Next
+- Click on the Schedule tab.
+- Select 'Relative Date' - always RELATIVE.
+- Select 'As at [date]'.
+- Click on Next.
 - "To" - you may want to set up two schedules (for the secondary versions), one to the students, one to the carers:
-	+ 'Mail Carers' to send to carers, so that all carer are included regardless of living arrangements
-	+ 'Contacts' to send to students
-- From, and subject as required
-- Body - example would be, "Please see attached the Weekly Summary for your student"
-- Click on Next
-- Description - this is the name of the schedule ie 'Weekly Summary - for carers on Fridays weekly'
+	+ 'Mail Carers' to send to carers, so that all carer are included regardless of living arrangements.
+	+ 'Contacts' to send to students.
+- From, and subject as required.
+- Body - example would be, "Please see attached the Weekly Summary for your student".
+- Click on Next.
+- Description - this is the name of the schedule ie 'Weekly Summary - for carers on Fridays weekly'.
 - Start On - always choose the time first and then the date you want it to start from.  I recommend selecting a time outside of school hours, so that the report does not interfere with Eduamte's performance at crucial times like roll marking etc.  Weekends like a Sunday afternoon are even ideal!
-- End On - never
-- Repeats - Weekly, and tick day of week it will generate ie 'Sunday'
-- Repeat every - [1] week
-- Submit
+- End On - never.
+- Repeats - Weekly, and tick day of week it will generate ie 'Sunday'.
+- Repeat every - [1] week.
+- Submit.
