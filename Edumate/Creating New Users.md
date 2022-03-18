@@ -21,7 +21,8 @@ To create new staff (as users) as contacts in Edumate - if your staff already ex
 - Now navigate to their staff tab and complete their start date, employment type, etc - Press Save.
 - On a staff member's general tab their is a shortname field.  This needs to be completed for all staff, as this is used for photo importing as well as being able to roster and timetable staff.
 - Email note:  please note on the General tab you are to store their school issued email address (this is the email account Edumate will use to send emails from and to).  Under their staff tab, this is where you store their personal/home account email address.  This is for record keeping only, Edumate does not use this email address.
-​=== Create new staff member from scratch
+
+=== Create new staff member from scratch
 To create new staff as contacts in Edumate - if the contact does not already exist in Edumate:
 - Go to the plus on the right side.
 - Go to contacts.
@@ -29,6 +30,7 @@ To create new staff as contacts in Edumate - if the contact does not already exi
 - Enter all details you have working through the tabs – press save after the first tab, as it will help populate information you need on the group tab.
 - On the contact's group tab you will also need to tick them as 'user'.  Press save and then refresh the screen.  Your contact will now have a access tab. For you to set up account settings (as per below).   P​​lease note, that you CAN NOT untick these once you have saved.  Each tab stores historical data that is then part of a person's profile forever.  Be sure you are ticking the right tick boxes!
 - Now navigate to their staff tab and complete their start date, employment type, etc - Press Save.
+
 === To make a teacher
 To ma​​​ke a teacher, a teacher in Edumate you will need to:
 - Give them a shortname – this will be the first three letters of their surname, followed by the first two letters of their firstname ie mine is DAWSA.  You will do this under their 'General Tab' in a field named 'Short Name'.  Although this field is primarily used for teachers, it is also used for importing photgraphs from school photo day.  Please give a shortname code to ALL staff.

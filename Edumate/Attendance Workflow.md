@@ -11,7 +11,7 @@ layout: default
 order: 0
 visibility: public
 ---
-# Attendance Workflow with MyEdumate and Parent Mobile App
+# Attendance Workflow
 
 With the introduction of My Edumate, and the Parent Mobile App, we have seen changes that are now available to us to help engage parents with the verification of student absences from school.
 
