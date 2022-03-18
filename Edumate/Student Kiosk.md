@@ -35,7 +35,7 @@ A student kiosk can be set up for students to sign themselves in late (also can 
 	a. Log out of Edumate and back in as user Kiosk
 	b. Go to the Plus menu (top right corner) and select *Attendance > Sign In*, this is the screen where students will be able to select their name and be encouraged to type in details explaining why they are late.
 
-![Example Sign In or Out Page](../static/Edumate/StudentKiosk/SignINOUT.png "Sign In or Out page")
+![Example Sign In or Out Page](../static/Edumate/StudentKiosk/EdumateINOUT.png "Sign In or Out page")
 
 ## Monitoring Late Sign Ins by Students
 

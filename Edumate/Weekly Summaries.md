@@ -68,7 +68,7 @@ The fields that are displayed are directly from the learning task:
 - Course Name (as per Setup > Academic Hierachy > School Courses setup)
 - Task - task title as entered by teaching staff in learning task area of Edumate.  It is important that this task title makes sense to all end users.
 
-![Example Upcoming assessments](../static/Edumate/WeeklySummaries/Upcoming_Assessment.png "Upcoming Assessments")
+![Example Upcoming assessments](../static/Edumate/WeeklySummaries/Upcoming_Assessments.png "Upcoming Assessments")
 
 ## Recent results
 
