@@ -5,7 +5,7 @@ authors:
     link: 
     avatar: ../static/SarahDawson_Icon.png
 description: 
-title: Edumate Info: Blue Card, Working with Children...
+title: Blue Card, Working with Children...
 icon: 
 layout: default
 order: 0
