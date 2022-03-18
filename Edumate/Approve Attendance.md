@@ -5,7 +5,7 @@ authors:
     link: 
     avatar: ../static/SarahDawson_Icon.png
 description: 
-title: 
+title: Approve Attendance
 icon: 
 layout: default
 order: 0
@@ -34,4 +34,4 @@ You will note that after approval, your login, date and time will be stored.  Th
 
 Please note that codes used as NSW codes. Please see attached Edumate's Attendance Reference Manual which lists an explanation of codes, on page 3 below.
 
-<iframe width="350" height="221" frameborder="0" src="https://ccmschools.sharepoint.com/:b:/r/sites/CorporateSystems/Shared%20Documents/Attendance-Reference-Manual_46528.pdf?csf=1&web=1&e=FRcCmX&amp;action=embedview&amp;wdAr=1.7777777777777777"></iframe>
+<iframe width="600" height="400" frameborder="0" src="https://ccmschools.sharepoint.com/:b:/r/sites/CorporateSystems/Shared%20Documents/Attendance-Reference-Manual_46528.pdf?csf=1&web=1&e=FRcCmX&amp;action=embedview&amp;wdAr=1.7777777777777777"></iframe>
