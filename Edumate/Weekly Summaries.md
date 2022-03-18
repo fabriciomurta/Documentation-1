@@ -41,7 +41,7 @@ The Upcoming events and excurions table will list the start date, time, event na
 
 There are reports available in Edumate to help identify where students have been entered on conflicting events, important to identify and fix these types of clashes in order to accurately inform parents/students of events that will be participating in.
 
-[! Example Upcoming events & excursions](../static/Edumate/WeeklySummaries/Upcoming_Events.png "Upcoming Events")
+![Example Upcoming events & excursions](../static/Edumate/WeeklySummaries/Upcoming_Events.png "Upcoming Events")
 
 ## Attendance
 
@@ -53,7 +53,7 @@ Carer/Parents are encouraged to log into the portal or app to confirm or verify 
 
 If there are days missing (ie not 5 days listed in the attendance table for a student), the likelihood is that a roll has been left unmarked for the student.  This can always be checked by going to Attendance > View Student Attendance.
 
-[! Example Attendance record](../static/Edumate/WeeklySummaries/Attendance.png "Attendance record")
+![Example Attendance record](../static/Edumate/WeeklySummaries/Attendance.png "Attendance record")
 
 ## Upcoming assessments*
 
@@ -68,7 +68,7 @@ The fields that are displayed are directly from the learning task:
 - Course Name (as per Setup > Academic Hierachy > School Courses setup)
 - Task - task title as entered by teaching staff in learning task area of Edumate.  It is important that this task title makes sense to all end users.
 
-[! Example Upcoming assessments](../static/Edumate/WeeklySummaries/Upcoming_Assessment.png "Upcoming Assessments")
+![Example Upcoming assessments](../static/Edumate/WeeklySummaries/Upcoming_Assessment.png "Upcoming Assessments")
 
 ## Recent results
 
@@ -80,7 +80,7 @@ The data includes is:
 - Criteria (as selected on Criteria tab for non General ATAR subjects, or as entered in 'mark workings' for General ATAR subjects) - QLD language here :)
 - Results - from the markbook screen, per student.
 
-[! Example Recent results](../static/Edumate/WeeklySummaries/Recent_Results.png "Recent Results")
+![Example Recent results](../static/Edumate/WeeklySummaries/Recent_Results.png "Recent Results")
 
 ## Awards & Behaviour 
 
@@ -89,7 +89,7 @@ This is two discrete sections on the weekly summaries, but operate in the same w
 - Description - the 'What Happened' drop down selection, with anything entered in the 'print details' box
 - Teacher & Class - the staff member and class that have been recorded on the screen, if teachers are recording their own in real time, this will be populated correctly for them.
 
-[! Example Awards & Behaviour Incidents](../static/Edumate/WeeklySummaries/Awards_Behaviour.png "Awards & Behaviour")
+![Example Awards & Behaviour Incidents](../static/Edumate/WeeklySummaries/Awards_Behaviour.png "Awards & Behaviour")
 
 ## Setting Up a Schedule
 
