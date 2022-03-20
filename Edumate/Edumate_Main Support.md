@@ -34,4 +34,10 @@ IMAGE Cameron Weir (Corporate Projects Manager)
 ## Key links
 [!button variant="primary" corners="square" target="blank" icon="browser" iconAlign="left" text="Launch Edumate"](https://staff.ccmschools.app/)
 
-[!button variant="primary" corners="square" target="blank" icon=code-of-conduct iconAlign="left" text="Edumate Support Portal"](https://support.edumate.app/)
+[!button variant="primary" corners="square" target="blank" icon=:code-of-conduct: iconAlign="left" text="Edumate Support Portal"](https://support.edumate.app/)
+
+[!button variant="primary" corners="square" target="blank" icon=:code of conduct: iconAlign="left" text="Edumate Support Portal"](https://support.edumate.app/)
+
+[!button variant="primary" corners="square" target="blank" icon="code of conduct" iconAlign="left" text="Edumate Support Portal"](https://support.edumate.app/)
+
+[!button variant="primary" corners="square" target="blank" icon=":code of conduct:" iconAlign="left" text="Edumate Support Portal"](https://support.edumate.app/)
