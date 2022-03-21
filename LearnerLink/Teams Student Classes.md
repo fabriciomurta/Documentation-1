@@ -36,9 +36,10 @@ This guide explains how to properly create a secure Microsoft Teams meeting sess
 
 It is recommended that you create a separate meeting link for each class group that shares your course. You can create your Teams meeting using from within the Teams client directly, from within Microsoft Outlook or from within Learner.Link. This guide will explain how to create the meeting from within Learner.Link which is the recommended method.
 
-**Creating your meeting link**
+#### Creating your meeting link**
 
 #### Step 1 
+##### Test
 Open the page in your Learner.Link course and begin editing the page content. Within the rich content editor, select the Integrations plugin icon and select Microsoft Teams Meeting.​​​​​​​
 
 ![Select Link then Microsoft Teams in Rich Text Editor](../static/LearnerLink/TeamsStudentClasses/Step1.png "Select Microsoft Teams from Rich Text Editor")
@@ -69,8 +70,8 @@ Press the Copy button. This will insert a meeting link into your page. You can e
 
 By default, students can join the meeting when a teacher is not present. This is undesirable - instead, students should be held in the meeting lobby until you admit them. If you have already created your meeting using another means, such as via Outlook or the Teams client directly and did not configure the lobby settings you can edit them by:
 1. Launching the meeting using the generated link.
-2. Selecting **More actions ***** at the top of the meeting window, and then **Meeting options**.
-3. A panel or new window will open. Change "Who can bypass the lobby?" from People in my organisation, to either '**Only you**' or '**ople I invite**
+2. Selecting **More actions \*** **at the top of the meeting window, and then **Meeting options**.
+3. A panel or new window will open. Change "Who can bypass the lobby?" from People in my organisation, to either '**Only you**' or '**People I invite**
 
 +++ Option 2: Creating a Class Team
 To ensure consistency of naming and proper data management, teachers can request a class team be created by selecting the button below:
