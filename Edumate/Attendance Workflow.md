@@ -5,7 +5,7 @@ authors:
   link: 
   avatar: ../static/SarahDawson_Icon.png
 description: 
-title: Attendance Workflow
+title: AttendanceWorkflow
 icon: 
 layout: default
 order: 0
