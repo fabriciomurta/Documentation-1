@@ -22,7 +22,7 @@ The following roles are automatically assigned based on Edumate class membership
 
 In addition, teachers may request additional staff to be added to a course in the following roles. The college's timetable administrator will need to add these via the class teacher assignment in Edumate.
 1. **Teacher Aide** (Teacher Aide in Edumate)<br>
-A teacher aide has identical access to a teacher with the following exceptions:
+	A teacher aide has identical access to a teacher with the following exceptions:
 	a. Can not publish a course
 	b. Can not edit learning outcomes
 2. **Course Designer** (other in Edumate)<br>
