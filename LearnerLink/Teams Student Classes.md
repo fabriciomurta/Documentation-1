@@ -64,6 +64,7 @@ Enter the name of the meeting eg '9A History". If you plan on creating a separat
 Press the Copy button. This will insert a meeting link into your page. You can edit the link text as required or even copy the link to reuse it on a graphic.
 
 **Securing your meeting**
+
 <span style="color:red">*From 26/01/2022 this option is enabled by default on all new meetings created.*</span>
 
 By default, students can join the meeting when a teacher is not present. This is undesirable - instead, students should be held in the meeting lobby until you admit them. If you have already created your meeting using another means, such as via Outlook or the Teams client directly and did not configure the lobby settings you can edit them by:
