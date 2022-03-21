@@ -1,3 +1,16 @@
+---
+authors:
+  - name: Cameron Weir
+    email: 
+    link: 
+    avatar: ../static/CameronWeir_Icon.png
+description: 
+title: 
+icon: 
+layout: default
+order: 100
+visibility: public
+---
 # Learner.Link
 Here is where you find information about Learner.Link. Below are some links.
 
@@ -31,8 +44,6 @@ If your support issue is regarding user course enrolments, you should direct you
 
 [!embed](https://www.youtube.com/embed/6H-FNayGJHw)
 
-[!embed]<iframe width="640" height="360" src="https://www.youtube.com/embed/6H-FNayGJHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Are you new to using an LMS?
 
 Just like adopting any other technology, using an LMS in your classroom generally requires you to change or modify your current pedagogical practices and teaching styles. This can be a daunting prospect for many people. SAMR is a model designed to help teachers incorporate technology into their teaching and learning. Developed by Dr. Ruben Puentedura, the model supports and enables teachers to design, develop, and infuse digital learning experiences that utilise technology. Whilst the model is focused on achieving higher order thinking, it also serves as a great set of stepping stones. Set yourself a goal to substitute and you will naturally find yourself moving towards augmentation, modification and redefinition over time.
@@ -40,6 +51,7 @@ Just like adopting any other technology, using an LMS in your classroom generall
 [!embed](https://www.youtube.com/embed/ZQTx2UQQvbU)
 
 
+**External Links**
 
 [!button variant="primary" corners="square" target="blank" icon="browser" iconAlign="left" text="Launch Learner.Link"](https://staff.ccmschools.app/)
 
