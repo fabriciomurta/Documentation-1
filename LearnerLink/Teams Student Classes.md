@@ -36,41 +36,40 @@ This guide explains how to properly create a secure Microsoft Teams meeting sess
 
 It is recommended that you create a separate meeting link for each class group that shares your course. You can create your Teams meeting using from within the Teams client directly, from within Microsoft Outlook or from within Learner.Link. This guide will explain how to create the meeting from within Learner.Link which is the recommended method.
 
-#### Creating your meeting link**
+#### Creating your meeting link
 
-#### Step 1 
-##### Test
+##### Step 1 
+
 Open the page in your Learner.Link course and begin editing the page content. Within the rich content editor, select the Integrations plugin icon and select Microsoft Teams Meeting.​​​​​​​
 
 ![Select Link then Microsoft Teams in Rich Text Editor](../static/LearnerLink/TeamsStudentClasses/Step1.png "Select Microsoft Teams from Rich Text Editor")
 
-#### Step 2 
+##### Step 2 
 A dialogue box will launch. Sign in and then select 'Create meeting link.'
 
 ![Follow the steps in the dialogue boxes](../static/LearnerLink/TeamsStudentClasses/Step2.png "Dialogue boxes")
 
-#### Step 3 
+##### Step 3 
 Enter the name of the meeting eg '9A History". If you plan on creating a separate link for each week, set the time and date as required. Alternatively, you can reuse the same link each lesson and ignore the time and date values that are prepopulated.
 
 ![Enter Meeting Details](../static/LearnerLink/TeamsStudentClasses/Step3.png "Enter Meeting Details")
 
-#### Step 4 
+##### Step 4 
 <span style="color:red">*From 26/01/2022 this option is enabled by default on all new meetings created.*</span>
 
 ​​​​​​​A confirmation box will appear. By default, students can join the meeting when a teacher is not present. This is undesirable. To change this, select the 'Meeting options' link. Once the meeting options window loads, change "Who can bypass the lobby?" from People in my organisation to either 'Only you' or 'People I invite'. Save and close this window. Students will now be held in the meeting lobby until you admit them.
 
 ![Join link, change options and copy](../static/LearnerLink/TeamsStudentClasses/Step1.png "Confirmation box with options")
 
-#### Step 5 
+##### Step 5 
 Press the Copy button. This will insert a meeting link into your page. You can edit the link text as required or even copy the link to reuse it on a graphic.
 
-**Securing your meeting**
+#### Securing your meeting
 
-<span style="color:red">*From 26/01/2022 this option is enabled by default on all new meetings created.*</span>
-
+<span style="color:red">*From 26/01/2022 this option is enabled by default on all new meetings created.*</span><br>
 By default, students can join the meeting when a teacher is not present. This is undesirable - instead, students should be held in the meeting lobby until you admit them. If you have already created your meeting using another means, such as via Outlook or the Teams client directly and did not configure the lobby settings you can edit them by:
 1. Launching the meeting using the generated link.
-2. Selecting **More actions \*** **at the top of the meeting window, and then **Meeting options**.
+2. Selecting **More actions \***\** at the top of the meeting window, and then **Meeting options**.
 3. A panel or new window will open. Change "Who can bypass the lobby?" from People in my organisation, to either '**Only you**' or '**People I invite**
 
 +++ Option 2: Creating a Class Team
