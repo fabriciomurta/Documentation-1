@@ -38,6 +38,7 @@ It is recommended that you create a separate meeting link for each class group t
 
 #### Creating your meeting link
 
+
 ##### Step 1 
 
 Open the page in your Learner.Link course and begin editing the page content. Within the rich content editor, select the Integrations plugin icon and select Microsoft Teams Meeting.​​​​​​​
@@ -75,6 +76,6 @@ By default, students can join the meeting when a teacher is not present. This is
 +++ Option 2: Creating a Class Team
 To ensure consistency of naming and proper data management, teachers can request a class team be created by selecting the button below:
 
-[!button variant="primary" corners="square" target="blank" icon="" iconAlign="left" text="Launch Learner.Link"](https://staff.ccmschools.app/)
+[!button variant="primary" corners="square" target="blank" icon="" iconAlign="left" text="Request creation of a Class Team"](https://ccm-teams-request.paperform.co/)
 
 +++

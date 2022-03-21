@@ -21,10 +21,12 @@ The following roles are automatically assigned based on Edumate class membership
 3. **Observer** - This user role is linked to a student enrolled in a course. All parents and carers with the 'Reports' flag in Edumate are assigned this role to view their student's course progress. 
 
 In addition, teachers may request additional staff to be added to a course in the following roles. The college's timetable administrator will need to add these via the class teacher assignment in Edumate.
-1. **Teacher Aide** (Teacher Aide in Edumate): A teacher aide has identical access to a teacher with the following exceptions:
+1. **Teacher Aide** (Teacher Aide in Edumate)<br>
+A teacher aide has identical access to a teacher with the following exceptions:
 	a. Can not publish a course
 	b. Can not edit learning outcomes
-2. **Course Designer** (other in Edumate): A course designer has identical access to a teacher with the following exceptions:
+2. **Course Designer** (other in Edumate)<br>
+	A course designer has identical access to a teacher with the following exceptions:
 	a. Can not edit grades
 	b. Can not moderate discussions
 
