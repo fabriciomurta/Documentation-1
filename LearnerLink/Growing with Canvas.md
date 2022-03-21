@@ -11,7 +11,7 @@ layout: default
 order: 0
 visibility: public
 ---
-# "Growing with Canvas" staff training course
+# *Growing with Canvas* staff training course
 
 Knowing where to begin when you are brand new to Canvas can be very daunting. *Growing with Canvas* has five modules of content that will take users through everything they need to know about using Canvas at their institutions - no matter what grade or level. The course uses a combination of the Canvas Video Guides and Canvas Guides to teach the content. Participants in the course will try out a number of the concepts through the practice activities.
 
