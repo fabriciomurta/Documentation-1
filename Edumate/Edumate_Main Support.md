@@ -9,7 +9,7 @@ Announcements regarding Edumate are generally posted to Registrars, Fee Advisors
 ||| Staff
 edumate-support@ccmschools.edu.au
 ||| Parents and carers
-edumate-support@yourschooldomain
+edumate-support\@yourschooldomain
 (e.g. edumate-support@groves.qld.edu.au)
 ||| Microsoft Teams
 Registrars, Fee Advisors & other academic support staff are active in a Microsoft Teams community. Please contact Sarah, Joel or Cameron to request to be added.
@@ -18,7 +18,7 @@ Registrars, Fee Advisors & other academic support staff are active in a Microsof
 ==- Staff
 edumate-support@ccmschools.edu.au
 ==- Parents and carers
-"\edumate-support@yourschooldomain\"
+edumate-support\@yourschooldomain
 (e.g. edumate-support@groves.qld.edu.au)
 ==- Microsoft Teams
 Registrars, Fee Advisors & other academic support staff are active in a Microsoft Teams community. Please contact Sarah, Joel or Cameron to request to be added.
