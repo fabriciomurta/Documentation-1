@@ -1,9 +1,9 @@
 ---
 authors:
  - name: Sarah Dawson
-  email: 
-  link: 
-  avatar: ../static/SarahDawson_Icon.png
+   email: 
+   link: 
+   avatar: ../static/SarahDawson_Icon.png
 description: 
 title: AttendanceWorkflow
 icon: 
